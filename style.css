@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.canvas-container {
+  position: relative;
+}
+
+canvas {
+  background: #87ceeb; /* Céu azul */
+  display: block;
+  border: 3px solid white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+#gameCanvas {
+  width: 100%;
+  height: 100vh;
+  max-width: 360px; /* Limita a largura para que o jogo não ultrapasse um tamanho fixo */
+  max-height: 640px; /* Limita a altura para que o jogo não ultrapasse um tamanho fixo */
+  display: block;
+  margin: 0 auto;
+}
